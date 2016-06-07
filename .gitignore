@@ -1,0 +1,11 @@
+# Ignore everything
+/*
+/*/
+ 
+# Inverse ignore some stuff
+!/Assets/
+!/ProjectSettings/
+!.gitignore
+!.gitattributes
+!*.keystore
+ 
