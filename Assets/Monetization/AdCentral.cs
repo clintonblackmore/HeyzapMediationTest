@@ -413,8 +413,8 @@ public static class AdCentral
 				return new AdFunction(ChartbootAdNetwork.PlayAd);
 #endif
 
-			case "UNITY":
-				return new AdFunction(UnityAdNetwork.PlayAd);
+//			case "UNITY":
+//				return new AdFunction(UnityAdNetwork.PlayAd);
 
 #if USE_VUNGLE
 			case "VUNGLE":
@@ -431,7 +431,7 @@ public static class AdCentral
                 return new AdFunction(AdcolonyAdNetwork.PlayAd);
 #endif
 			default:
-				return new AdFunction(UnityAdNetwork.PlayAd);
+                return new AdFunction(HeyzapAdNetwork.PlayAd);
 		}
 	}
 
