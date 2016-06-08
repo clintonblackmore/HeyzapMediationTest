@@ -330,7 +330,9 @@ PlayerSettings:
   psp2InfoBarColor: 0
   psmSplashimage: {fileID: 0}
   spritePackerPolicy: 
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    4: USE_HEYZAP
+    7: USE_HEYZAP
   metroPackageName: HeyzapMediationTest3
   metroPackageVersion: 
   metroCertificatePath: 
